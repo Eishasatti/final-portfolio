@@ -93,6 +93,10 @@ const Home1 = () => {
                 Responsive</a>
               </li>
               <li>
+                <a href="https://todo-with-redux-beryl.vercel.app/"  target="_blank">Todo App-
+                with react redux</a>
+              </li>
+              <li>
                 <a href="https://text-rep.vercel.app/"  target="_blank">TextUtils app-
                 Responsive</a>
               </li>
