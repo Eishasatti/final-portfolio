@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaGithub } from "react-icons/fa";
+import { FaUpwork } from "react-icons/fa6";
 
 const Home1 = () => {
   return (
@@ -48,8 +49,11 @@ const Home1 = () => {
               <li>CSS</li>
               <li>Javascript</li>
               <li>Tailwind</li>
-              <li>React</li>
+              <li>React js + Express js</li>
               <li>Figma</li>
+              <li>Java</li>
+  
+              <li>Next js</li>
             </ul>
           </div>
           <img
@@ -92,6 +96,12 @@ const Home1 = () => {
                 <a href="https://text-rep.vercel.app/"  target="_blank">TextUtils app-
                 Responsive</a>
               </li>
+              <li> 
+                <a href="https://my-project-gamma-teal-87.vercel.app/" target="_blank">Infused-To show case my UI abilities</a>
+              </li>
+              <li> 
+                <a href="https://ecomsite-git.vercel.app/" target="_blank">E-commerce website using react-redux and express js </a>
+              </li>
             </ul>
           </p>
           <img
@@ -132,15 +142,16 @@ const Home1 = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.instagram.com/_satti_19?igsh=N20xbnp4dnprOG5r" target="_blank" rel="noopener noreferrer">
-                    <i className='bx bxl-instagram-alt text-white' style={{ fontSize: '2rem' }}></i>
+                  <a href="https://github.com/Eishasatti" target="_blank" rel="noopener noreferrer">
+                    <i className='bx bxl-github-alt text-white' style={{ fontSize: '2rem' }}><FaGithub /></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.facebook.com/profile.php?id=100091670330738&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-                    <i className='bx bxl-facebook-circle text-white' style={{ fontSize: '2rem' }}></i>
+                  <a href="https://www.upwork.com/freelancers/~0158696ae5d76de339?mp_source=share" target="_blank" rel="noopener noreferrer">
+                    <i className=' text-white' style={{ fontSize: '2rem' }}><FaUpwork /></i>
                   </a>
                 </li>
+
               </ul>
             </div>
           </div>
